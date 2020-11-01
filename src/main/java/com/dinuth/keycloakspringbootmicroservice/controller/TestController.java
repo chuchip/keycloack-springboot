@@ -1,13 +1,9 @@
 package 	com.dinuth.keycloakspringbootmicroservice.controller;
 
 import java.security.Principal;
-import java.util.Map;
-import java.util.Set;
 
 import javax.annotation.security.RolesAllowed;
 
-import org.keycloak.KeycloakSecurityContext;
-import org.keycloak.adapters.springsecurity.token.KeycloakAuthenticationToken;
 import org.keycloak.representations.AccessToken;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
